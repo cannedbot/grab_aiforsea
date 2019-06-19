@@ -1,9 +1,9 @@
-# grab_aiforsea
+# Grab_aiforsea
 Submission for AI for SEA competition for grab (computer vision challenge)
 
 (note: this was run and tested natively on my alienware aurora R6 with GTX1080)
 
-# **Data preprocessing**
+## **Data preprocessing**
 * download and extract dataset 
 	* http://imagenet.stanford.edu/internal/car196/cars_train.tgz
 	  extract it to folder cars_train
@@ -24,5 +24,5 @@ Submission for AI for SEA competition for grab (computer vision challenge)
   * generate tf.record
 	  follow this repo to generate tf.record https://github.com/cannedbot/create_tfrecords
     
-# **To start fine-tune training**
+## **To start fine-tune training**
 	. run finetune_resnetv1_50.py
