@@ -1,6 +1,10 @@
 # Grab_aiforsea
 Submission for AI for SEA competition for grab (computer vision challenge)
 
+Finetune Resnet_v1_50 architecture for stanford cars dataset classification. (architecture base code on tf-slim model zoo) 
+
+Original stanford train set were split 0.8% for training and 0.2% for validation. Fine-tuning the architecture to the dataset results with ~0.9 train accuracy and ~0.75 validation accuracy.
+
 (note: this was run and tested natively on my alienware aurora R6 with GTX1080)
 
 ## **Data preprocessing**
